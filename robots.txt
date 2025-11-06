@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /app-ads.txt
+Disallow:
+```
+
+3. **Deploy to Netlify** (push to your Git repository or drag-and-drop to Netlify)
+
+## Option 2: If you're using a static site generator
+
+### For Next.js, React, or similar:
+Put `robots.txt` in your `public/` folder:
+```
+public/
+  robots.txt
+  app-ads.txt
